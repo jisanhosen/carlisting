@@ -1,0 +1,464 @@
+*{box-sizing:border-box; padding:0; margin:0;}
+.clr{clear:both}
+
+/*===header===*/
+
+.section1{
+    width:100%;
+    background: url(../image/singal-page/heder-bg.jpg) no-repeat;
+    background-size:100% 100%
+}
+.containar1{
+    max-width:1205px;
+    margin:0 auto;
+    padding-bottom:192px
+}
+.head{
+    width:100%;
+    padding:20px 40px 0 40px
+}
+.head .nav{
+    float:left
+}
+.head .nav ul{
+    list-style:none
+}
+.head .nav ul li{
+    display:inline-block;
+    color:#2f80bd
+}
+.head .nav ul li a{
+    padding:0 5px;
+    text-decoration:none;
+    font-family: 'Oswald', sans-serif;
+    font-weight:300
+}
+
+.head .sign{
+    margin-left:150px;
+    float:left
+}
+
+.head .top-media{
+    float:right
+}
+.head .top-media p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:800;
+    color:#0064af
+}
+.head .top-media ul{
+    list-style:none;
+    text-align:right
+}
+.head .top-media ul li{
+    display:inline-block;
+}
+.head .top-media ul li a{
+    color:#0064af;
+}
+
+.manu{
+    width:100%; 
+    margin-top:18px;
+    position:relative
+}
+.manuitm{
+    width:100%;
+    background:url(../image/nav-bar.png) no-repeat;
+    background-size:100% 100%
+}
+.manuitm img{
+    margin:20px 20px 0 30px;
+    float:left
+}
+.manuitm > ul{
+    list-style:none;
+}
+.manuitm > ul > li{
+    display:inline-block
+}
+.manuitm > ul > li > a{
+    padding-left:20px;
+    text-decoration:none;
+    color:#fff;
+    font-size:16px;
+    font-family:'Oswald', sans-serif;
+    font-weight:700;
+    line-height:72px
+}
+
+/*===SECTION-2===*/
+
+.section-2{
+    width:100%
+}
+.containar-2{
+    width:1100px;
+    min-height:1620px;
+    margin:0 auto;
+    position:relative
+    
+}
+.maincont{
+    width:100%;
+    position:absolute;
+    top:-124px;
+}
+.maincont .single-Car{
+    width:702px;
+    margin-right:25px;
+    float:left
+}
+.maincont .single-Car .main-car{
+    width:100%;   
+}
+.single-Car .group-car{
+    width:100%;
+    margin-top:33px
+}
+.single-Car .Basic-information{
+    width:100%;
+    margin-top:48px;
+}
+.single-Car .Basic-information table{
+    width:100%;
+}
+.single-Car .Basic-information .table .border{
+    border:1px solid#323232
+}
+.single-Car .Basic-information table tr td{
+    font-size:13px;
+    line-height:40px;
+    color:#323232;
+    font-weight:300;
+    font-family:'Oswald', sans-serif;
+}
+
+
+
+.description{
+    width:100%;
+    margin-top:37px;
+}
+.description h3{
+    font-size:25px;
+    line-height:26px;
+    font-weight:800;
+    font-style:italic;
+    color:#0064af;
+    font-family: 'Open Sans', sans-serif;
+}
+.description p{
+    padding-top:18px;
+    font-size:14px;
+    line-height:30px;
+    color:#3c3c3c;
+    font-family:'Oswald', sans-serif;
+}
+.John-Hyundai{
+    width:100%;
+    margin-top:40px;
+}
+.John-Hyundai h3{
+    font-size:25px;
+    line-height:26px;
+    font-weight:800;
+    font-style:italic;
+    color:#0064af;
+    font-family: 'Open Sans', sans-serif;
+}
+.John-Hyundai p{
+    padding-top:18px;
+    font-size:14px;
+    line-height:30px;
+    color:#3c3c3c;
+    font-family:'Oswald', sans-serif;
+}
+.side-bar{
+    width:373px;
+    float:left
+}
+.side-text{
+    width:100%
+}
+.side-text h2{
+    padding:5px 0 21px 0;
+    font-size:30px;
+    line-height:31px;
+    font-weight:800;
+    font-style:italic;
+    color:#005698;
+    text-transform:uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+.side-text .rate{
+    width:100%;
+    padding-top:44px;
+    background:url(../image/singal-page/hr-bg.png);
+    background-repeat:no-repeat;  
+}
+.side-text .rate strong{
+    display:block;
+    font-size:35px;
+    line-height:36px;
+    font-weight:700;
+    font-family: 'Oswald', sans-serif;
+    color:#005698;
+}
+.side-text .rate small{
+    margin-top:7px;
+    display:block;
+    font-size:18px;
+    line-height:20px;
+    font-weight:300;
+    font-family: 'Oswald', sans-serif;
+    color:#005698;
+}
+.side-text .car-mailage{
+    width:100%;
+    padding-top:45px
+}
+.side-text .car-mailage h3{
+    padding-bottom:15px;
+    display:block;
+    font-size:30px;
+    line-height:31px;
+    font-weight:300;
+    color:#323232;
+    font-family: 'Oswald', sans-serif;
+}
+.side-text .car-mailage span{
+    display:block;
+    font-size:17px;
+    line-height:30px;
+    font-weight:300;
+    color:#323232;
+    font-family: 'Oswald', sans-serif;
+}
+.side-text a{
+    width:100%;
+    margin-top:22px;
+    border:1px solid#004172;
+    border-radius:3px;
+    background:#0064af;
+    font-size:23px;
+    font-weight:700;
+    line-height:51px;
+    text-align:center;
+    text-decoration:none;
+    color:#fff;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+}
+.side-bar .fetures{
+    width:100%;
+    margin-top:40px
+}
+.side-bar .fetures h2{
+    font-size:25px;
+    font-weight:800;
+    font-style:italic;
+    line-height:26px;
+    color:#0064af;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+.side-bar .fetures .option{
+    width:100%;
+    margin-top:20px;
+    padding-left:72px;
+    overflow:hidden
+}
+.side-bar .fetures .feaureIn{
+    float:left;
+    list-style:none
+}
+.side-bar .fetures .feaureIn li{
+    font-size:15px;
+    font-weight:300;
+    line-height:30px;
+    color:#323232;
+    font-family: 'Oswald', sans-serif;
+}
+.side-bar .fetures .feaureIn li span{
+    font-size:15px;
+    font-weight:700;
+    color:#0064af;
+    font-family: 'Oswald', sans-serif;
+}
+.fetures .option .optionIn{
+    padding-right:56px;
+    float:right;
+    list-style:none;
+}
+.side-bar .fetures .optionIn li{
+    font-size:15px;
+    font-weight:300;
+    line-height:30px;
+    color:#323232;
+    font-family: 'Oswald', sans-serif;
+}
+.side-bar .fetures .optionIn li span{
+    font-size:15px;
+    font-weight:700;
+    color:#0064af;
+    font-family: 'Oswald', sans-serif;
+}
+.similar{
+    width:100%;
+}
+.similarIn{
+    width:100%;
+    padding-top:38px
+}
+.similarIn h2{
+    padding-bottom:12px;
+    font-size:25px;
+    font-weight:800;
+    font-style:italic;
+    line-height:26px;
+    color:#0064af;
+    font-family: 'Open Sans', sans-serif;
+}
+.similarIn .Box{
+    width:100%;
+    margin-top:10px
+}
+.similarIn .BoxIn{
+    width:100%;
+    padding:15px 12px 9px 12px;
+    border:1px solid#eee
+}
+.similarIn .BoxIn img{
+    width:100%;
+}
+.similarIn .BoxIn .Box-Model{
+    width:100%;
+    overflow:hidden
+}
+.similarIn .BoxIn .Box-Model h3{
+    float:left;
+    font-size:16px;
+    font-weight:700;
+    line-height:38px;
+    color:#005698;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.similarIn .BoxIn .Box-Model strong{
+    float:right;
+    font-size:16px;
+    font-weight:700;
+    line-height:38px;
+    color:#005698;
+    font-family: 'Oswald', sans-serif;
+}
+.BoxIn .Box-details{
+    width:100%;
+    overflow:hidden;
+    background:url(../image/singal-page/hr-bg.png);
+    background-repeat:no-repeat;
+}
+.BoxIn .Box-details .milage{
+    padding-top:20px;
+    float:left
+}
+.BoxIn .Box-details .milage span{
+    display:block;
+    font-size:13px;
+    line-height:19px;
+    color:#3c3c3c;
+    font-family: 'Oswald', sans-serif;
+}
+.BoxIn .Box-details .btn{
+    padding-top:5px;
+    float:right
+}
+.BoxIn .Box-details .btn a{
+    width:90px;
+    margin-top:4px;
+    display:block;
+    background:#0064af;
+    border:1px solid#004172;
+    border-radius:2px;
+    font-size:10.10px;
+    line-height:22px;
+    color:#fff;
+    text-decoration:none;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+}
+.BoxIn .Box-details .btn a i{
+    margin-right:4px
+}
+
+
+
+/*===FOOTER===*/
+
+.ftr{
+    width:100%;
+    margin-top:34px;
+    background-color:#323232;
+    overflow:hidden;
+}
+.ftrcontant{
+    max-width:1100px;
+    margin:0 auto;
+}
+.ftrcontant .ftr-top{
+    width:100%
+}
+.ftr-down{
+    width:100%;
+    overflow:hidden;
+    margin-top:18px;
+}
+.ftr-down p{
+    padding:0;
+    margin:0;
+    line-height:20px;
+    font-size:15px;
+    color:#fff;
+}
+.ftr-down h5{
+    padding:0;
+    margin:0;
+    color:#fff;
+}
+.ftr-down table td{
+    color:#fff;
+}
+
+.logo{
+    float:left;
+    margin-top:45px;
+}
+.url{
+    margin-top:22px;
+    float:right;
+    text-align:right;
+}
+.url ul li{
+    list-style:none;
+    display:inline-block;
+    line-height:20px;
+    color:#fff;
+}
+.url ul li a{
+    padding-right:5px;
+    text-decoration:none;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    font-weight:300
+}
+.col{
+    width:25%;
+    float:left;
+    font-family: 'Oswald', sans-serif;
+    font-weight:300
+}
+.col .box2{
+    text-align:center
+}

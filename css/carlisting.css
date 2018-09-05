@@ -1,0 +1,658 @@
+*{box-sizing:border-box; padding:0; margin:0;}
+.clr{clear:both}
+
+/*===header===*/
+
+.section1{
+    width:100%;
+    background: url(../image/carlisting/heder-bg.jpg) no-repeat;
+    background-size:100% 100%
+}
+.containar1{
+    max-width:1205px;
+    margin:0 auto;
+    padding-bottom:192px
+}
+.head{
+    width:100%;
+    margin-top:20px;
+    padding:0 40px
+}
+.head .nav{
+    float:left
+}
+.head .nav ul{
+    list-style:none
+}
+.head .nav ul li{
+    display:inline-block;
+    color:#2f80bd
+}
+.head .nav ul li a{
+    padding:0 5px;
+    text-decoration:none;
+    font-family: 'Oswald', sans-serif;
+    font-weight:300
+}
+
+.head .sign{
+    margin-left:150px;
+    float:left
+}
+
+.head .top-media{
+    float:right
+}
+.head .top-media p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:800;
+    color:#0064af
+}
+.head .top-media ul{
+    list-style:none;
+    text-align:right
+}
+.head .top-media ul li{
+    display:inline-block;
+}
+.head .top-media ul li a{
+    color:#0064af;
+}
+
+.manu{
+    width:100%; 
+    margin-top:18px;
+    position:relative
+}
+.manuitm{
+    width:100%;
+    background:url(../image/nav-bar.png) no-repeat;
+    background-size:100% 100%
+}
+.manuitm img{
+    margin:20px 20px 0 30px;
+    float:left
+}
+.manuitm > ul{
+    list-style:none;
+}
+.manuitm > ul > li{
+    display:inline-block
+}
+.manuitm > ul > li > a{
+    padding-left:20px;
+    text-decoration:none;
+    color:#fff;
+    font-size:16px;
+    font-family:'Oswald', sans-serif;
+    font-weight:700;
+    line-height:72px
+}
+
+/*===Section-2===*/
+
+.section-2{
+    width:100%
+}
+.containar-2{
+    width:1100px;
+    min-height:1187px;
+    margin:0 auto;
+    position:relative
+}
+.containar-2 .row{
+    width:100%
+}
+
+.side-bar {
+    width: 357px;
+    float: left;
+    position: absolute;
+    top:-160px;
+    left:0;
+}
+.search-option{
+    width:100%;
+}
+.search-option .heading{
+    width:160px;
+    margin-left:30px;
+    border:1px solid#0064af;
+    border-radius: 5px 5px 0 0;
+    text-align:center;
+    background:#004b84
+}
+.search-option .heading h4{
+    font-size:16px;
+    line-height:42px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+}
+.search-option .form {
+    width:100%;
+    background:#fff;
+    border:1px solid#d3d2d1;
+}
+.search-option .form input{
+    width:329px;
+    margin:18px 0 0 15px;
+    padding-left:16px;
+    line-height:42px;
+    padding-left:16px;
+    line-height:42px;
+    font-size:14px;
+}
+.search-option .form input::-webkit-input-placeholder{
+    color:#2b2b2b;
+    font-family:'Oswald', sans-serif;
+    font-weight:300
+}
+.search-option .form input:-moz-kit-input-placeholder{
+    color:#2b2b2b;
+    font-family:'Oswald', sans-serif;
+    font-weight:300
+}
+.search-option .form input::-moz-placeholder{
+    color:#2b2b2b;
+    font-family:'Oswald', sans-serif;
+    font-weight:300
+}
+.search-option .form input:-ms-placeholder{
+    color:#2b2b2b;
+    font-family:'Oswald', sans-serif;
+    font-weight:300
+}
+.search-option .form .select-option{
+    width:100%
+}
+.form .select-option select{
+    width:329px;
+    height:42px;
+    margin:12px 0 0 15px;
+    padding-left:16px;
+    color:#2b2b2b;
+    font-family:'Oswald', sans-serif;
+    font-weight:300;
+    font-size:14px;
+}
+.form .select-option select{
+    -webkit-appearance:none;
+    -moz-appearance:normal;
+    -ms-appearance:none;
+    appearance:none;
+}
+.form .select-option .icon{
+    position:relative
+}
+.form .select-option .icon:after{
+    content: "\f107";
+    position:absolute;
+    right:25px;
+    top:22px;
+    font-family:"fontAwesome";
+    font-size:22px;
+    color:#2b2b2b;
+    pointer-events:none;
+}
+.form .tab{
+    width:329px;
+    margin:18px 0 0 15px;
+}
+.form .tab a{
+    width:49%;
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:center;
+    border:1px solid#a6a099;
+    color:#2b2b2b;
+    font-family:'Oswald', sans-serif;
+    font-weight:300;
+    font-size:14px;
+    line-height:42px
+}
+.form .tab .used{
+    background:#004b84;
+    color:#fff
+}
+.search{
+    width:100%;
+    margin:35px 0 22px 0;
+    text-align:center
+}
+.search a{
+    width:297px;
+    margin-left:30px;
+    background:#004b84;
+    display:block;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:16px;
+    line-height:52px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    font-weight:300
+}
+.price-option{
+    width:100%;
+    margin-top:29px;
+}
+.price-option .heading{
+    width:145px;
+    margin-left:30px;
+    border:2px solid#1b70b1;
+    border-bottom:none;
+    border-radius:3px 3px 0 0;
+    text-align:center;
+}
+.price-option .heading h5{
+    font-size:16.5px;
+    color:#004b84;
+    line-height:36px;
+    font-family:'Oswald', sans-serif;
+    font-weight:400
+}
+.price-option .condition{
+    width:100%;
+    background:#004b84;
+    border-radius:5px;
+    padding-left:42px
+}
+.conditionIn{
+    width:100%;
+    padding-top:36px;
+}
+.conditionIn b{
+    padding-bottom:10px;
+    display:block;
+    font-size:25px;
+    line-height:26px;
+    font-family:'Oswald', sans-serif;
+    color:#fff;
+    font-weight:400
+}
+.conditionIn ul li{
+    list-style:none
+}
+.conditionIn ul li a{
+    font-size:16.5px;
+    line-height:30px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+}
+.price-option .i-con{
+    position:relative;
+}
+.price-option .i-con:after{
+    content: "\f107";
+    position:absolute;
+    right:45px;
+    top:20px;
+    font-family:"fontAwesome";
+    font-size:25px;
+    color:#2b2b2b;
+    pointer-events:none;
+}
+.price-option .i-con select{
+    -webkit-appearance:none;
+    -moz-appearance:normal;
+    -ms-appearance:none;
+    appearance:none;
+}
+
+.condition .make{
+    width:100%;
+    margin-top:20px;
+}
+.condition .make label{
+    font-size:25px;
+    line-height:26px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    font-weight:400
+}
+.condition .make .i-con select{
+    width:280px;
+    height:47px;
+    margin-top:9px;
+    padding-left:11px;
+    font-size:16px;
+    color:#2b2b2b;
+    border-radius:1px;
+    border:none;
+    font-family:'Oswald', sans-serif;
+}
+.condition .model{
+    width:100%;
+    margin-top:25px;
+}
+.condition .model label{
+    font-size:25px;
+    line-height:26px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    font-weight:400
+}
+.condition .model .i-con select{
+    width:280px;
+    height:47px;
+    margin-top:9px;
+    padding-left:11px;
+    font-size:16px;
+    color:#2b2b2b;
+    border-radius:1px;
+    border:none;
+    font-family:'Oswald', sans-serif;
+}
+.condition .year{
+    width:100%;
+    margin-top:25px;
+}
+.condition .year label{
+    font-size:25px;
+    line-height:26px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    font-weight:400
+}
+.condition .year .i-con select{
+    width:280px;
+    height:47px;
+    margin-top:9px;
+    padding-left:11px;
+    font-size:16px;
+    color:#2b2b2b;
+    border-radius:1px;
+    border:none;
+    font-family:'Oswald', sans-serif;
+}
+.condition .rate{
+    width:100%;
+    margin-top:25px;
+}
+.condition .rate label{
+    font-size:25px;
+    line-height:26px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    font-weight:400
+}
+.condition .rate .tab-bar{
+    width:280px;
+    margin-top:14px;
+    text-align:center
+}
+.condition .rate .tab-bar small{
+    width:49%;
+    height:48px;
+    display:inline-block;
+    background:#fff;
+    border-radius:2px;
+    font-size:16px;
+    line-height:47px;
+    font-family:'Oswald', sans-serif;
+    font-weight:300;
+    color:#004b84
+}
+.condition .color{
+    width:100%;
+    margin-top:35px;
+    padding-bottom:23px
+}
+.condition .color label{
+    font-size:25px;
+    line-height:26px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    font-weight:400
+}
+.condition .color .select-color{
+    width:100%;
+    margin-top:20px
+}
+.color .select-color .colorIn{
+    width:100%;
+}
+.color .select-color .colorIn .choosen{
+    width:23px;
+    height:23px;
+    margin-right:10px;
+    float:left;
+    border:1px solid#fff
+}
+
+.color .select-color .colorIn .black{
+    background:#323232;
+}
+.color .select-color .colorIn .white{
+    background:#fff;
+}
+.color .select-color .colorIn .red{
+    background:#e50000;
+}
+.color .select-color .colorIn .blue{
+    background:#004eff;
+}
+.color .select-color .colorInner{
+    width:100%;
+    margin-top:16px
+}
+.color .select-color .colorInner .choosen{
+    width:23px;
+    height:23px;
+    margin-right:10px;
+    float:left;
+    border:1px solid#fff
+}
+.color .select-color .colorInner .green{
+    background:#08d53d
+}
+.color .select-color .colorInner .ashe{
+    background:#bbbbbb
+}
+.color .select-color .colorInner .yellow{
+    background:#ffde00
+}
+
+/*===MAINCONT==*/
+
+.maincont{
+    width: 729px;
+    float:left;
+    position: absolute;
+    top: -140px;
+    left:372px;
+}
+.maincont > .box{
+    width:100%;
+    margin-top:18px;
+    border:1px solid#cfcfcf;
+    background:rgba(255, 255, 255, 0.9)
+}
+.maincont .box .row{
+    width:100%;
+    padding:16px 14px 19px 14px
+}
+.maincont .box .row .carImg{
+    float:left
+}
+.maincont .box .row .carDetails{
+    width:462px;
+    float:left;
+    padding-left:16px;
+    //background:#0f0
+}
+.maincont .box .row .carDetails h2{
+    padding-bottom:17px;
+    font-size:31px;
+    line-height:32px;
+    color:#005698;
+    font-family:'Oswald', sans-serif;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:-2px;
+    word-spacing:-2px
+}
+.box .row .carDetails .carText{
+    width:100%;
+    padding-top:19px;
+    background:url(../image/carlisting/hr.png);
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    background-size:100% auto
+}
+.row .carDetails .carText .carmileage{
+    float:left;
+}
+.row .carDetails .carText .carmileage span{
+    padding-top:6px;
+    display:block;
+    font-size:13px;
+    line-height:19px;
+    font-family:'Oswald', sans-serif;
+    color:#3c3c3c
+}
+.row .carDetails .carText .carPrice{
+    float:right;
+    text-align:end
+}
+.row .carDetails .carText .carPrice strong{
+    display:block;
+    font-size:30px;
+    line-height:32px;
+    color:#005698;
+    font-family:'Oswald', sans-serif;
+    font-weight:700;
+    letter-spacing:-2px;
+}
+.row .carDetails .carText .carPrice strong sup{
+    font-size:20px;
+    color:#005698;
+    font-family:'Oswald', sans-serif;
+    font-weight:700;
+    letter-spacing:-2px;
+}
+.row .carDetails .carText .carPrice a{
+    width:116px;
+    margin-top:5px;
+    border:1px solid#004172;
+    border-radius:2px;
+    background:#0064af;
+    display:inline-block;
+    font-size:13px;
+    line-height:31px;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    text-align:center;
+    text-decoration:none
+}
+.carDetails .carText .carPrice a i{
+    margin-right:5px
+}
+.maincont .page{
+    width:100%;
+    padding-top:17px 
+}
+.maincont .page ul{
+    width:100%;
+    margin-left:250px;
+    list-style:none
+}
+.maincont .page ul li{
+    display:inline-block;
+}
+.maincont .page ul li a{
+    width:44px;
+    padding:0 5px;
+    background:#eaeaea;
+    font-size:24px;
+    font-family:'Oswald', sans-serif;
+    line-height:44px;
+    color:#323232;
+    text-decoration:none;
+    display:block;
+    text-align:center
+}
+.maincont .page ul li a.previous{
+    margin-right:10px;
+    border-radius:50%;
+    line-height:44px
+}
+.maincont .page ul li a.previous img{
+    margin-bottom:5px
+}
+.maincont .page ul li a.next{
+    margin-left:10px;
+    border-radius:50%;
+    line-height:44px
+}
+.maincont .page ul li a.next img{
+    margin-bottom:5px
+}
+
+
+/*===FOOTER===*/
+
+.ftr{
+    width:100%;
+    background-color:#323232;
+    overflow:hidden;
+}
+.ftrcontant{
+    max-width:1100px;
+    margin:0 auto;
+}
+.ftrcontant .ftr-top{
+    width:100%
+}
+.ftr-down{
+    width:100%;
+    overflow:hidden;
+    margin-top:18px;
+}
+.ftr-down p{
+    padding:0;
+    margin:0;
+    line-height:20px;
+    font-size:15px;
+    color:#fff;
+}
+.ftr-down h5{
+    padding:0;
+    margin:0;
+    color:#fff;
+}
+.ftr-down table td{
+    color:#fff;
+}
+
+.logo{
+    float:left;
+    margin-top:45px;
+}
+.url{
+    margin-top:22px;
+    float:right;
+    text-align:right;
+}
+.url ul li{
+    list-style:none;
+    display:inline-block;
+    line-height:20px;
+    color:#fff;
+}
+.url ul li a{
+    padding-right:5px;
+    text-decoration:none;
+    color:#fff;
+    font-family:'Oswald', sans-serif;
+    font-weight:300
+}
+.col{
+    width:25%;
+    float:left;
+    font-family: 'Oswald', sans-serif;
+    font-weight:300
+}
+.col .box2{
+    text-align:center
+}
